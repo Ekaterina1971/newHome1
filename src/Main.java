@@ -48,14 +48,15 @@ public class Main {
         int allClass = schoolPaint / classPaint;
         System.out.println(" В школе, где " + allClass + " классов, нужно " + allClass * whitePaint + " банок белой краски и " + allClass * brownPaint + " банок коричневой краски");
 
+        byte banan = 80;
+        byte milk = 105;
+        byte plombir = 100;
+        byte egg = 70;
+        int breakfast = (banan * 5) + (milk * 2) + (plombir * 2) + (egg * 4);
+        System.out.println("Завтрак спортсмена составляет " + breakfast + " грамм");
+        float breakfast1 = (float) breakfast / 1000;
+        System.out.println("Завтрак спортсмена составляет " + breakfast1 + " кг");
 
 
-
-
-
-
-
-
-
-    }
+            }
 }
