@@ -41,6 +41,14 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + operation4 + " бутылок");
         System.out.println("За месяц машина произвела " + operation5 + " бутылок");
 
+        byte schoolPaint = 120;
+        byte whitePaint = 2;
+        byte brownPaint = 4;
+        int classPaint = whitePaint + brownPaint;
+        int allClass = schoolPaint / classPaint;
+        System.out.println(" В школе, где " + allClass + " классов, нужно " + allClass * whitePaint + " банок белой краски и " + allClass * brownPaint + " банок коричневой краски");
+
+
 
 
 
