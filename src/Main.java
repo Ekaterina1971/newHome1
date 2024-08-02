@@ -29,6 +29,20 @@ public class Main {
         int students = class1 + class2 + class3;
         System.out.println("На каждого ученика расчитано " + paper / students + " листов бумаги");
 
+        byte time = 2;
+        byte bottle = 16;
+        int operation1 = bottle / time;
+        int operation2 = operation1 * 20;
+        int operation3 = (operation1 * 60) * 24;
+        int operation4 = operation3 * 3;
+        int operation5 = operation3 * 30;
+        System.out.println("За 20 минут машина произвела " + operation2 + " бутылок");
+        System.out.println("За сутки машина произвела " + operation3 + " бутылок");
+        System.out.println("За 3 дня машина произвела " + operation4 + " бутылок");
+        System.out.println("За месяц машина произвела " + operation5 + " бутылок");
+
+
+
 
 
 
