@@ -22,6 +22,14 @@ public class Main {
         int g1 = 27897;
         byte h1 = 67;
 
+        byte class1 = 23;
+        byte class2 = 27;
+        byte class3 = 30;
+        short paper = 480;
+        int students = class1 + class2 + class3;
+        System.out.println("На каждого ученика расчитано " + paper / students + " листов бумаги");
+
+
 
 
 
