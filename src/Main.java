@@ -57,6 +57,20 @@ public class Main {
         float breakfast1 = (float) breakfast / 1000;
         System.out.println("Завтрак спортсмена составляет " + breakfast1 + " кг");
 
+        int vesKg = 7;
+        int vesGr = 1000;
+        int allVes = vesKg * vesGr;
+        int minVes = 250;
+        int maxVes = 500;
+        int minDay = allVes / maxVes;
+        int maxDay = allVes / minVes;
+        int avgDay = (minDay + maxDay) / 2;
+        System.out.println(minDay);
+        System.out.println(maxDay);
+        System.out.println(avgDay);
+
+
+
 
             }
 }
