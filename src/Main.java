@@ -69,6 +69,24 @@ public class Main {
         System.out.println(maxDay);
         System.out.println(avgDay);
 
+        int maryaMonth = 67760;
+        int denisMonth = 83690;
+        int kristinaMonth = 76230;
+        int maryaYear = maryaMonth * 12;
+        int denisYear = denisMonth * 12;
+        int kristinaYear = kristinaMonth * 12;
+        int maryaMonth1 = (maryaMonth * 110) / 100;
+        int denisMonth1 = (denisMonth * 110) / 100;
+        int kristinaMonth1 = (kristinaMonth * 110) / 100;
+        int maryaYear1 = maryaMonth1 * 12;
+        int denisYear1 = denisMonth1 * 12;
+        int kristinaYear1 = kristinaMonth1 * 12;
+        System.out.println("Мария теперь получает " + maryaMonth1 + " рублей. Годовой доход вырос на " + (maryaYear1 - maryaYear) + " рублей.");
+        System.out.println("Денис теперь получает " + denisMonth1 + " рублей. Годовой доход вырос на " + (denisYear1 - denisYear) + " рублей.");
+        System.out.println("Кристина теперь получает " + kristinaMonth1 + " рублей. Годовой доход вырос на " + (kristinaYear1 - kristinaYear) + " рублей.");
+
+
+
 
 
 
