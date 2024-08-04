@@ -21,13 +21,20 @@ public class Main {
         short f1 = -159;
         int g1 = 27897;
         byte h1 = 67;
+        System.out.println("Значение переменной a1 с типом float равно " + a1 );
+        System.out.println("Значение переменной b1 с типом long равно " + b1 );
+        System.out.println("Значение переменной c1 с типом double равно " + c1 );
+        System.out.println("Значение переменной d1 с типом short равно " + d1 );
+        System.out.println("Значение переменной f1 с типом short равно " + f1 );
+        System.out.println("Значение переменной g1 с типом int равно " + g1);
+        System.out.println("Значение переменной h1 с типом byte равно " + h1);
 
-        byte class1 = 23;
-        byte class2 = 27;
-        byte class3 = 30;
+        byte studentsCount1 = 23;
+        byte studentsCount2 = 27;
+        byte studentsCount3 = 30;
         short paper = 480;
-        int students = class1 + class2 + class3;
-        System.out.println("На каждого ученика расчитано " + paper / students + " листов бумаги");
+        int allStudents = studentsCount1 + studentsCount2 + studentsCount3;
+        System.out.println("На каждого ученика расчитано " + paper / allStudents + " листов бумаги");
 
         byte time = 2;
         byte bottle = 16;
@@ -48,10 +55,10 @@ public class Main {
         int allClass = schoolPaint / classPaint;
         System.out.println(" В школе, где " + allClass + " классов, нужно " + allClass * whitePaint + " банок белой краски и " + allClass * brownPaint + " банок коричневой краски");
 
-        byte banan = 80;
-        byte milk = 105;
-        byte plombir = 100;
-        byte egg = 70;
+        int banan = 80;
+        int milk = 105;
+        int plombir = 100;
+        int egg = 70;
         int breakfast = (banan * 5) + (milk * 2) + (plombir * 2) + (egg * 4);
         System.out.println("Завтрак спортсмена составляет " + breakfast + " грамм");
         float breakfast1 = (float) breakfast / 1000;
@@ -84,11 +91,6 @@ public class Main {
         System.out.println("Мария теперь получает " + maryaMonth1 + " рублей. Годовой доход вырос на " + (maryaYear1 - maryaYear) + " рублей.");
         System.out.println("Денис теперь получает " + denisMonth1 + " рублей. Годовой доход вырос на " + (denisYear1 - denisYear) + " рублей.");
         System.out.println("Кристина теперь получает " + kristinaMonth1 + " рублей. Годовой доход вырос на " + (kristinaYear1 - kristinaYear) + " рублей.");
-
-
-
-
-
 
             }
 }
